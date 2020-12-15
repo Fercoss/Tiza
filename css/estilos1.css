@@ -1,0 +1,345 @@
+@charset "UTF-8";
+nav ul {
+  display: inline;
+  background-color: #302C2E;
+  text-decoration: none; }
+
+nav li {
+  display: inline;
+  margin-left: 25px;
+  text-decoration: none; }
+
+nav ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #333;
+  text-decoration: none; }
+
+nav li {
+  float: right;
+  text-decoration: none; }
+
+nav li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 60px;
+  text-decoration: none;
+  letter-spacing: 1px; }
+
+nav li a:hover {
+  background-color: #DDF01D;
+  text-decoration: none;
+  color: #333; }
+
+a.navbar-brand {
+  font-size: 40px;
+  font-weight: bold;
+  letter-spacing: 25px;
+  color: #DDF01D; }
+
+.nav-link {
+  padding-right: 75px;
+  padding-left: 75px; }
+
+.nav-item {
+  color: white; }
+
+.navegador {
+  display: inline;
+  margin-left: 25px;
+  text-decoration: none;
+  float: right; }
+
+div {
+  color: #DDF01D; }
+
+body {
+  background-color: #302C2E;
+  background-size: 100%; }
+
+h1 a {
+  color: #DDF01D;
+  letter-spacing: 25px;
+  margin-left: 25px;
+  margin-top: 20px;
+  font-size: 40px;
+  text-decoration: none;
+  font-weight: bold;
+  padding: 20px; }
+
+h1 a:hover {
+  text-decoration: none;
+  color: #DDF01D; }
+
+h2 {
+  color: #DBDBDB;
+  margin-left: 25px;
+  font-size: 50px;
+  padding: 0px;
+  letter-spacing: 10px;
+  font-weight: bold; }
+
+h3 {
+  color: #DBDBDB;
+  font-size: 30px;
+  letter-spacing: 4px;
+  font-weight: bold; }
+
+h4 {
+  align-self: center;
+  letter-spacing: 4px;
+  font-weight: bold; }
+
+h5 {
+  font-size: 18px; }
+
+body {
+  font-family: Acumin Pro Wide; }
+
+p {
+  color: #DBDBDB; }
+
+.tituloVerde {
+  color: #DDF01D; }
+
+.row {
+  color: #DBDBDB; }
+
+.párrafoVerde {
+  color: #DDF01D;
+  margin-left: 40px; }
+
+form {
+  color: #DBDBDB; }
+
+footer {
+  color: #DDF01D;
+  font-size: 85%;
+  text-align: center; }
+
+.fotoproducto {
+  margin-left: 25px; }
+
+.fotoProducto3 {
+  padding: 25px 6px 0px 0px; }
+
+.fotoProducto2 {
+  padding: 25px 6px 0px 0px; }
+
+.fotoProducto4 {
+  padding: 25px 6px 0px 0px; }
+
+.row {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between; }
+
+#fondoVerde {
+  background-color: #DDF01D;
+  width: 100%;
+  height: 70px;
+  padding: 20px;
+  color: #302C2E;
+  margin-left: 25px; }
+
+.negro {
+  color: #302C2E;
+  padding: 0px 30px 0px 30px; }
+
+#fondoVerdeEntregas {
+  background-color: #DDF01D;
+  width: 100%;
+  height: 70px;
+  padding: 20px;
+  color: #302C2E;
+  margin-left: 40px; }
+
+.header__principal {
+  display: grid;
+  grid-template-columns: repeat(5, 1fr);
+  grid-template-rows: repeat(5, 1fr);
+  grid-column-gap: 15px;
+  grid-row-gap: 15px; }
+
+.intro {
+  grid-area: 5 / 1 / 6 / 6;
+  margin-left: 25px;
+  margin-right: 25px;
+  padding: 15px; }
+
+.header__titulo {
+  grid-area: 2 / 1 / 3 / 5; }
+
+.header__boton {
+  grid-area: 3 / 1 / 4 / 5;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  font-weight: bold;
+  margin-left: 25px;
+  font: Acumin Pro Wide; }
+
+.instagram {
+  grid-area: 2 / 5 / 3 / 6;
+  display: flex;
+  justify-content: flex-end;
+  margin-right: 25px; }
+
+.facebook {
+  grid-area: 3 / 5 / 4 / 6;
+  display: flex;
+  justify-content: flex-end;
+  margin-right: 28px; }
+
+.whatsapp {
+  grid-area: 4 / 5 / 5 / 6;
+  display: flex;
+  justify-content: flex-end;
+  margin-right: 25px; }
+
+#logoFooter {
+  font-size: 24px;
+  font-weight: bold;
+  letter-spacing: 15px; }
+
+.btn.btn-outline-secondary {
+  border-color: #DDF01D;
+  color: #DDF01D;
+  border-radius: 0px;
+  size: 20px;
+  padding: 10px 30px 10px 30px; }
+
+.btn.btn-outline-secondary:hover {
+  background-color: #DDF01D;
+  color: #333;
+  text-decoration: none; }
+
+.acercaDe {
+  font-style: italic; }
+
+form {
+  margin-left: 50px; }
+
+#nuestrasVelas {
+  font-size: 24px;
+  font-weight: bold; }
+
+nav li a {
+  text-decoration: none;
+  color: white; }
+
+footer {
+  margin-top: 200px;
+  margin-bottom: 100px; }
+
+.card {
+  background-color: #3C3A3A; }
+
+.btn.btn-primary {
+  border-color: #DDF01D;
+  color: #DDF01D;
+  border-radius: 0px;
+  background-color: #3C3A3A;
+  text-decoration: none; }
+
+.btn.btn-primary:hover {
+  background-color: #DDF01D;
+  color: #333; }
+
+.header__titulo2 {
+  margin-top: 75px;
+  margin-left: 40px; }
+
+section.container {
+  margin-top: 75px; }
+
+.card {
+  margin-top: 50px; }
+
+text {
+  background-color: #3C3A3A; }
+
+.formulario {
+  margin-left: 40px;
+  margin-top: 50px; }
+
+.container.lasVelas {
+  margin-top: 200px;
+  transition-delay: 5s; }
+
+#demo {
+  margin-top: 100px; }
+
+.container.nuestrasVelas {
+  margin-top: 150px; }
+
+.container.quienesSomos {
+  margin-top: 200px; }
+
+.row.fotoDk {
+  margin-top: 50px; }
+
+.mapaEntregas {
+  margin-left: 40px; }
+
+label {
+  color: #DDF01D; }
+
+input {
+  background-color: #3C3A3A;
+  color: white; }
+
+textarea {
+  background-color: #3C3A3A;
+  color: white; }
+
+.nuestraHistoria {
+  font-weight: lighter; }
+
+.container.Danicata {
+  margin-top: 40px;
+  display: flex;
+  justify-content: center; }
+
+.header__boton__contenido {
+  color: #DDF01D; }
+
+.header__boton__contenido:hover {
+  text-decoration: none;
+  color: #333; }
+
+.hvr-grow {
+  display: inline-block;
+  vertical-align: middle;
+  -webkit-transform: perspective(1px) translateZ(0);
+  transform: perspective(1px) translateZ(0);
+  box-shadow: 0 0 1px rgba(0, 0, 0, 0);
+  -webkit-transition-duration: 0.3s;
+  transition-duration: 0.3s;
+  -webkit-transition-property: transform;
+  transition-property: transform; }
+
+.hvr-shadow {
+  display: inline-block;
+  vertical-align: middle;
+  -webkit-transform: perspective(1px) translateZ(0);
+  transform: perspective(1px) translateZ(0);
+  box-shadow: 0 0 1px rgba(0, 0, 0, 0);
+  -webkit-transition-duration: 0.3s;
+  transition-duration: 0.3s;
+  -webkit-transition-property: box-shadow;
+  transition-property: box-shadow; }
+
+.hvr-grow-shadow {
+  display: inline-block;
+  vertical-align: middle;
+  -webkit-transform: perspective(1px) translateZ(0);
+  transform: perspective(1px) translateZ(0);
+  box-shadow: 0 0 1px rgba(0, 0, 0, 0);
+  -webkit-transition-duration: 0.3s;
+  transition-duration: 0.3s;
+  -webkit-transition-property: box-shadow, transform;
+  transition-property: box-shadow, transform; }
